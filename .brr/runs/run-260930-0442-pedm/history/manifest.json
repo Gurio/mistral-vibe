@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "conversation_key": "schedule:the-goal-pulse",
+      "dialogue_count": 1,
+      "id": "gate_thread:schedule:the-goal-pulse",
+      "kind": "gate_thread",
+      "label": "schedule thread schedule:the-goal-pulse",
+      "latest_ts": "2026-09-30T04:42:26.921500Z",
+      "path": "/Users/gurio/Source/Projects/mistral-vibe/.brr/runs/run-260930-0442-pedm/history/gate_thread-schedule__the-goal-pulse.jsonl",
+      "record_count": 5,
+      "source": "schedule",
+      "store_path": "/Users/gurio/Source/Projects/mistral-vibe/.brr/conversations/schedule__the-goal-pulse",
+      "total_record_count": 5
+    }
+  ]
+}

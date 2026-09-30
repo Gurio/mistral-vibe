@@ -1,0 +1,6 @@
+{"id":"act-1790743704123530000-q278","ts":"2026-09-30T04:48:24Z","by":"seat","verb":"message","target":"event:evt-1790743343536574000-dhm5","why":"receipt.md","idempotent":false,"state":"attempted"}
+{"id":"act-1790743704123530000-q278","ts":"2026-09-30T04:48:25Z","by":"seat","verb":"message","target":"event:evt-1790743343536574000-dhm5","why":"receipt.md","idempotent":false,"state":"confirmed","evidence":"event:evt-1790743343536574000-dhm5"}
+{"id":"act-1790747175353147000-yfem","ts":"2026-09-30T05:46:15Z","by":"seat","verb":"message","target":"gate:cloud","why":"do-1790747171934733000-gate-0.md","idempotent":false,"state":"attempted"}
+{"id":"act-1790747175353147000-yfem","ts":"2026-09-30T05:46:15Z","by":"seat","verb":"message","target":"gate:cloud","why":"do-1790747171934733000-gate-0.md","idempotent":false,"state":"confirmed","evidence":"gate:cloud"}
+{"id":"act-1790747723038655000-lvig","ts":"2026-09-30T05:55:23Z","by":"seat","verb":"message","target":"gate:cloud","why":"do-1790747718063455000-gate-0.md","idempotent":false,"state":"attempted"}
+{"id":"act-1790747723038655000-lvig","ts":"2026-09-30T05:55:23Z","by":"seat","verb":"message","target":"gate:cloud","why":"do-1790747718063455000-gate-0.md","idempotent":false,"state":"confirmed","evidence":"gate:cloud"}

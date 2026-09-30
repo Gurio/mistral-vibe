@@ -1,0 +1,414 @@
+{
+  "schema_version": "1",
+  "run_id": "run-260930-0442-pedm",
+  "blocks": [
+    {
+      "name": "boot-kernel",
+      "label": "Boot kernel (action-first score)",
+      "owner": "daemon-live",
+      "authority": "runtime",
+      "present": true,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 1556,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": 1556,
+      "lens": null
+    },
+    {
+      "name": "run-preamble",
+      "label": "Operational preamble (run.md)",
+      "owner": "product",
+      "authority": "contract",
+      "present": true,
+      "sources": [
+        {
+          "path": "/Users/gurio/Source/Projects/brnrd/src/brr/prompts/run.md",
+          "store": "product-prompt"
+        }
+      ],
+      "bytes_kept": 6011,
+      "bytes_cut": 1,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": "2026-09-23T14:06:52Z",
+      "rendered_bytes": 6011,
+      "lens": null
+    },
+    {
+      "name": "weave",
+      "label": "Working register (weave.md)",
+      "owner": "product",
+      "authority": "contract",
+      "present": true,
+      "sources": [
+        {
+          "path": "/Users/gurio/Source/Projects/brnrd/src/brr/prompts/weave.md",
+          "store": "product-prompt"
+        }
+      ],
+      "bytes_kept": 8324,
+      "bytes_cut": 1,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": "2026-09-27T21:10:10Z",
+      "rendered_bytes": 8324,
+      "lens": null
+    },
+    {
+      "name": "register",
+      "label": "Working register, worked example (register.md)",
+      "owner": "product",
+      "authority": "contract",
+      "present": true,
+      "sources": [
+        {
+          "path": "/Users/gurio/Source/Projects/brnrd/src/brr/prompts/register.md",
+          "store": "product-prompt"
+        }
+      ],
+      "bytes_kept": 4451,
+      "bytes_cut": 1,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": "2026-09-03T13:34:26Z",
+      "rendered_bytes": 4451,
+      "lens": null
+    },
+    {
+      "name": "daemon-substrate",
+      "label": "Daemon mechanics (daemon-substrate.md)",
+      "owner": "product",
+      "authority": "substrate",
+      "present": true,
+      "sources": [
+        {
+          "path": "/Users/gurio/Source/Projects/brnrd/src/brr/prompts/daemon-substrate.md",
+          "store": "product-prompt"
+        }
+      ],
+      "bytes_kept": 19045,
+      "bytes_cut": 1,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": "2026-09-23T14:06:52Z",
+      "rendered_bytes": 19045,
+      "lens": null
+    },
+    {
+      "name": "portal-verb-grammar",
+      "label": "Portal verb grammar (`brnrd await` / `brnrd do`, docs portals)",
+      "owner": "product",
+      "authority": "substrate",
+      "present": true,
+      "sources": [
+        {
+          "path": "/Users/gurio/Source/Projects/brnrd/src/brr/docs/portals.md",
+          "store": "product-prompt"
+        }
+      ],
+      "bytes_kept": 14037,
+      "bytes_cut": 68270,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": "2026-09-23T14:02:13Z",
+      "rendered_bytes": 14037,
+      "lens": null
+    },
+    {
+      "name": "identity-core",
+      "label": "Resident identity core",
+      "owner": "product",
+      "authority": "identity",
+      "present": true,
+      "sources": [
+        {
+          "path": "/Users/gurio/Source/Projects/brnrd/src/brr/prompts/identity-core.md",
+          "store": "product-prompt"
+        }
+      ],
+      "bytes_kept": 7133,
+      "bytes_cut": 0,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": "2026-09-27T21:10:10Z",
+      "rendered_bytes": 7133,
+      "lens": null
+    },
+    {
+      "name": "relabelled-repo",
+      "label": "Stranded-memory warning (repo moved)",
+      "owner": "daemon-live",
+      "authority": "health",
+      "present": false,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 0,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": null,
+      "lens": null
+    },
+    {
+      "name": "dominion",
+      "label": "Dominion digest (self-inject)",
+      "owner": "resident",
+      "authority": "memory",
+      "present": true,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 23738,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": 23738,
+      "lens": null
+    },
+    {
+      "name": "hearth",
+      "label": "The hearth (personal space, index-shaped)",
+      "owner": "resident",
+      "authority": "hearth",
+      "present": true,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 423,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": 423,
+      "lens": null
+    },
+    {
+      "name": "work-surface",
+      "label": "Discovered work surface",
+      "owner": "resident",
+      "authority": "surface",
+      "present": true,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 47820,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": "cut",
+      "freshness": null,
+      "rendered_bytes": 47820,
+      "lens": null
+    },
+    {
+      "name": "runner-policy",
+      "label": "Stored runner policy (CS6)",
+      "owner": "resident",
+      "authority": "policy",
+      "present": false,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 0,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": null,
+      "lens": null
+    },
+    {
+      "name": "pitfalls",
+      "label": "Task-matched pitfalls",
+      "owner": "resident",
+      "authority": "memory",
+      "present": true,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 11517,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": 11517,
+      "lens": null
+    },
+    {
+      "name": "knowledge-sources",
+      "label": "Knowledge sources (home+repo+docs)",
+      "owner": "project",
+      "authority": "knowledge",
+      "present": true,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 3012,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": 3012,
+      "lens": null
+    },
+    {
+      "name": "recent-activity",
+      "label": "Recent activity (kb/log.md tail)",
+      "owner": "daemon-live",
+      "authority": "activity",
+      "present": false,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 0,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": null,
+      "lens": null
+    },
+    {
+      "name": "prior-run",
+      "label": "Your last run (node frame + Now + shape)",
+      "owner": "resident",
+      "authority": "memory",
+      "present": true,
+      "sources": [
+        {
+          "path": "/Users/gurio/.local/state/brnrd/accounts/acc_bdda426da378d4f0c3cad2eb/home/runs/Gurio__mistral-vibe/run-260930-0151-93fu/body.md",
+          "store": "dominion"
+        }
+      ],
+      "bytes_kept": 1117,
+      "bytes_cut": 762,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": 1117,
+      "lens": null
+    },
+    {
+      "name": "kb-health",
+      "label": "kb health (deterministic preflight)",
+      "owner": "daemon-live",
+      "authority": "health",
+      "present": false,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 0,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": null,
+      "lens": null
+    },
+    {
+      "name": "notes-health",
+      "label": "notes health (deterministic preflight)",
+      "owner": "daemon-live",
+      "authority": "health",
+      "present": true,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 3564,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": 3564,
+      "lens": null
+    },
+    {
+      "name": "diffense",
+      "label": "diffense review-pack prompt",
+      "owner": "product",
+      "authority": "config",
+      "present": false,
+      "sources": [
+        {
+          "path": "/Users/gurio/Source/Projects/brnrd/src/brr/prompts/diffense.md",
+          "store": "runtime-generated"
+        }
+      ],
+      "bytes_kept": 0,
+      "bytes_cut": 2707,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": "2026-08-17T14:33:53Z",
+      "rendered_bytes": null,
+      "lens": null
+    },
+    {
+      "name": "introspection",
+      "label": "Introspection dev-mode invitation",
+      "owner": "product",
+      "authority": "config",
+      "present": false,
+      "sources": [
+        {
+          "path": "/Users/gurio/Source/Projects/brnrd/src/brr/prompts/introspection.md",
+          "store": "runtime-generated"
+        }
+      ],
+      "bytes_kept": 0,
+      "bytes_cut": 2730,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": "2026-08-17T14:33:53Z",
+      "rendered_bytes": null,
+      "lens": null
+    },
+    {
+      "name": "run-context-bundle",
+      "label": "Run Context Bundle (runtime facts)",
+      "owner": "daemon-live",
+      "authority": "runtime",
+      "present": true,
+      "sources": [
+        {
+          "synthesized": true
+        }
+      ],
+      "bytes_kept": 8238,
+      "bytes_cut": null,
+      "budget_bytes": null,
+      "trim_kind": null,
+      "freshness": null,
+      "rendered_bytes": 8238,
+      "lens": null
+    }
+  ]
+}

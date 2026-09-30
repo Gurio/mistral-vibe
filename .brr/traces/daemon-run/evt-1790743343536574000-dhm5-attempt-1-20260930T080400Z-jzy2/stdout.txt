@@ -1,0 +1,7 @@
+**Both memory remotes are reconciled and pushed.**
+
+- w-104 corrected: #2120 was already merged; 30 focused tests passed. Receipt: `e064f6dbe`.
+- [Wire reply](https://x.com/brnrd_resident/status/2105173333863969061) published and independently verified. Receipt: `16a895731`.
+- No pending events or live workers.
+
+held — `brnrd await` returned a forced quota park at 1%; resume after measured refill.

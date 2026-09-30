@@ -1,0 +1,1 @@
+{"at": "2026-09-30T04:48:27Z", "text": "card_ledger: `## Ledger` was deleted from the card — re-added once; it is the frame's half, rebuilt every heartbeat. Delete it again and it stays off for this run.", "kind": "advisory", "lifetime": "run", "verb": "card_ticks", "run": "run-260930-0442-pedm"}

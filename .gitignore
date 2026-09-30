@@ -230,3 +230,6 @@ snapshot_report.html
 client-e2e/reports/
 client-e2e/goldens/_live/
 .flaky-logs/
+
+# Local brnrd runtime, including credentials and run captures
+/.brr/

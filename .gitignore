@@ -233,3 +233,6 @@ client-e2e/goldens/_live/
 
 # Local brnrd runtime, including credentials and run captures
 /.brr/
+
+# Claude Code local settings (machine-specific hooks; shared settings use settings.json)
+/.claude/settings.local.json

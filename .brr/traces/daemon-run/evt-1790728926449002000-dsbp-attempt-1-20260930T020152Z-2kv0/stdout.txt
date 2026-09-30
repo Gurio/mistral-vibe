@@ -1,0 +1,8 @@
+**Vibe is integrated and loaded; real daemon strands have published work.**
+
+- Native hooks, token/model accounting and model selection shipped.
+- Default, Medium 3.5, GLM 5.3 and local profiles are available; local requires your model server.
+- Dashboard visibility fixed in [#2145](https://github.com/hugimuni-labs/brnrd/pull/2145). Tests and CI passed; live visual review remains blocked.
+- Subscription balance remains unknown; requested upstream in [Vibe #1161](https://github.com/mistralai/mistral-vibe/issues/1161).
+
+`committed e4fd0e73 on brr/the-shell-without-a-gauge` — merged and deployed.

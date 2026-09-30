@@ -1,0 +1,4 @@
+{"id":"act-1790733440500448000-oqzk","ts":"2026-09-30T01:57:20Z","by":"seat","verb":"message","target":"gate:cloud","why":"do-1790733435321990000-gate-0.md","idempotent":false,"state":"attempted"}
+{"id":"act-1790733440500448000-oqzk","ts":"2026-09-30T01:57:20Z","by":"seat","verb":"message","target":"gate:cloud","why":"do-1790733435321990000-gate-0.md","idempotent":false,"state":"confirmed","evidence":"gate:cloud"}
+{"id":"act-1790733684878584000-0pq8","ts":"2026-09-30T02:01:24Z","by":"seat","verb":"message","target":"gate:cloud","why":"halt-review.md","idempotent":false,"state":"attempted"}
+{"id":"act-1790733684878584000-0pq8","ts":"2026-09-30T02:01:24Z","by":"seat","verb":"message","target":"gate:cloud","why":"halt-review.md","idempotent":false,"state":"confirmed","evidence":"gate:cloud"}

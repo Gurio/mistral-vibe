@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "conversation_key": "cloud:telegram:155783668:",
+      "dialogue_count": 1,
+      "id": "gate_thread:cloud:telegram:155783668:",
+      "kind": "gate_thread",
+      "label": "cloud/telegram thread cloud:telegram:155783668:",
+      "latest_ts": "2026-09-30T01:51:38.929816Z",
+      "path": "/Users/gurio/Source/Projects/mistral-vibe/.brr/runs/run-260930-0151-93fu/history/gate_thread-cloud__telegram__155783668__.jsonl",
+      "record_count": 5,
+      "source": "cloud/telegram",
+      "store_path": "/Users/gurio/Source/Projects/mistral-vibe/.brr/conversations/cloud__telegram__155783668__",
+      "total_record_count": 5
+    }
+  ]
+}
